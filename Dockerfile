@@ -6,7 +6,7 @@ CMD ["/sbin/entrypoint.sh"]
 ARG cachet_ver
 ARG archive_url
 
-ENV cachet_ver ${cachet_ver:-v2.4.1-custom}
+ENV cachet_ver ${cachet_ver:-v2.4.2-custom}
 ENV archive_url ${archive_url:-https://github.com/w-edof/Cachet/archive/${cachet_ver}.tar.gz}
 
 ENV COMPOSER_VERSION 1.9.0
